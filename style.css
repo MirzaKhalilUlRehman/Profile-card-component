@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1dc7d7;
+}
+.profile-card {
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+.header {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMlXTuhLlZm1BC1hfELY9vzhF29QlnfyE_X_9qcqdi7iYvsX4E') no-repeat center center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 100px;
+}
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -40px;
+    border: 3px solid white;
+}
+.profile-info {
+    padding: 20px;
+}
+.profile-info h2 {
+    font-size: 20px;
+    color: #333;
+}
+.profile-info p {
+    font-size: 14px;
+    color: #777;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+}
+.stats div {
+    text-align: center;
+}
+.stats h3 {
+    color: #333;
+    font-size: 16px;
+}
+.stats p {
+    color: #999;
+    font-size: 12px;
+}
